@@ -1,6 +1,15 @@
+body {
+    background-color: black;
+}
+
+p{
+  font-size: 16px;
+  
+}
+
 
 #topheader{
-    background-color:blue;
+    background-image: url("lenseFlare.png");
     color:white;
     text-align:center;
     padding:120px;
@@ -11,26 +20,60 @@
 
 
 #sidebar {
-
+ 
 	background-color: yellow;
+  background-image: url("lightning.gif");
+  background-size: 100%;
 	width: 20% ;
 	height: 60%;
 	float: right;
-	margin-right: 15%;
+	margin-right: 15.25%;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
+  padding-left: 2em;
+  right:0;
+  position: absolute;
 
 }
 
+#creepyGif{
+  float:right; 
+  background-image: url("puppet.gif");
+  background-size: 150px 150px;
+  width:150px; /*width of your image*/
+  height:150px;
+  margin-right: 2em;
+  padding-right: 6px;
+}
+
+#workImage{
+  float: left;
+  background-image: url("work.gif");
+  width:300px; /*width of your image*/
+  height:150px;
+  margin-right: 1em;
+}
+
+#whyImage{
+  float:right;
+  background-image: url("http://25.media.tumblr.com/tumblr_m94hpzQfSK1rof6ulo1_500.gif");
+  width:300px; /*width of your image*/
+  height:150px;
+  margin-right: 1em;
+  background-size: 300px 150px;
+}
 
 #mainContent{
 	float: left;
-	width: 40%;
+	width: 45%;
 	height: 60%;
 	margin-left: 15%;
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: white;
+  padding-left: 2em;
 }
 
 .rainbow {
+  font-size: 2em;
   background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
   color:transparent;
@@ -38,7 +81,5 @@
   background-clip: text;
 }
 
-body {
-    background-color: black
-    ;
-}
+
+
