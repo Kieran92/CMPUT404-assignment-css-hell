@@ -27,7 +27,7 @@ p {
   margin-right:15%; 
   margin-left:15%;
   text-align: top;
-  font-size: 120%;
+  font-size: 100%;
   font-family:Verdana, Geneva, sans-serif;
 
 }
@@ -67,6 +67,7 @@ p {
 }
 
 #sidebarTxt{
+  
   text-align: center;
   font-size: 130%;
   line-height:2;
@@ -125,3 +126,17 @@ p {
 }
 
 
+ul li {
+    background: #978068;
+    margin: 5px;
+}
+
+
+.rainbow {
+
+  padding-right: 85%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+
+}
