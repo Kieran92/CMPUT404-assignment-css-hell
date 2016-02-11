@@ -1,6 +1,8 @@
+
+
 body {
     background-color: black;
-    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e7/67/32/e76732de2cbe64c7c103e97e6d08f6cb.gif");
+    background-image: url("https://media.giphy.com/media/uj9z0rzjZ8gCs/giphy.gif");
 }
 
 p{
@@ -10,8 +12,8 @@ p{
 
 
 #topheader{
-    background-image: url("lenseFlare.png");
-    background-size: 100%;
+    background-image: url("https://45.media.tumblr.com/b0b6265753ae72858fbdc3c112eda793/tumblr_ni07ryN0dA1qdd6qyo1_400.gif");
+
     color:white;
     text-align:center;
     padding:120px;
@@ -22,8 +24,18 @@ p{
 }
 
 
+
+@keyframes hinge {
+  0% { transform: rotate(0); transform-origin: top right; animation-timing-function: ease-in-out; }  
+  20%, 60% { transform: rotate(-80deg); transform-origin: top right; animation-timing-function: ease-in-out; }  
+  40% { transform: rotate(-60deg); transform-origin: top right; animation-timing-function: ease-in-out; } 
+  80% { transform: rotate(-60deg) translateY(0); opacity: 1; transform-origin: top right animation-timing-function: ease-in-out; } 
+  100% { transform: translateY(700px); opacity: 0; }
+}
+
 #sidebar {
- 
+  animation-duration: 5s;
+  animation-name: hinge;
 	background-color: yellow;
   background-image: url("lightning.gif");
   background-size: 100%;
@@ -58,7 +70,7 @@ p{
 
 #whyImage{
   float:right;
-  background-image: url("http://25.media.tumblr.com/tumblr_m94hpzQfSK1rof6ulo1_500.gif");
+  background-image: url("http://p.fod4.com/upload/aff3567c9abaad4b798a350dc1e1b1a3/mnI3slnCSGWrtzV0Yc2h_George%20Drumming.gif");
   width:300px; /*width of your image*/
   height:150px;
   margin-right: 1em;
@@ -66,33 +78,40 @@ p{
 }
 
 #mainContent{
+
 	float: left;
 	width: 45%;
 	height: 100%;
 	margin-left: 15%;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-image: url("https://45.media.tumblr.com/274b5acb1904b4680eeb5e06ff8a3539/tumblr_mfd73gV83K1rmu6i5o1_400.gif");
+  background-size: 100%;
   background-color: white;
   padding-left: 2em;
 }
 
 
 .rainbow {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  cursor: pointer;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
   border: none;
-  font: normal normal bold 70px/normal "Bad Script", Helvetica, sans-serif;
-  color: rgba(0, 0, 0, 0);
+  font: normal 48px/normal class="string">"Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
   text-align: center;
   -o-text-overflow: clip;
   text-overflow: clip;
-  text-shadow: 3px 0 0 rgb(217,31,38) , 6px 0 0 rgb(226,91,14) , 9px 0 0 rgb(245,221,8) , 12px 0 0 rgb(5,148,68) , 15px 0 0 rgb(2,135,206) , 18px 0 0 rgb(4,77,145) , 21px 0 0 rgb(42,21,113) ;
-  -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  -o-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
+
 
 
 
