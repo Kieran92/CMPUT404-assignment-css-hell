@@ -1,23 +1,95 @@
-    body { margin:5%; background: #d9b48c; text-align:center;}
+    body { 
+        margin:5%; 
+        background: #d9b48c; 
+        text-align:center;
+    }
     
-    P { text-indent: 1em; margin-top: .25em; margin-bottom: .25em; text-align: center; font-style: italic; font-family: serif; }
-    H1,H2,H3,H4,H5,H6 { text-align: center; margin-left: 15%; margin-right: 15%; font-style: italic; font-family: serif;}
-    img {outline: 10px solid #000066;}
+    P { 
+        text-indent: 1em;
+        margin-top: .25em;
+        margin-bottom: .25em; 
+        text-align: center; 
+        font-style: italic; 
+        font-family: serif; 
+    }
+    H1,H2,H3,H4,H5,H6 { text-align: center; 
+        margin-left: 15%; 
+        margin-right: 15%; 
+        font-style: italic; 
+        font-family: serif;
+    }
+    img {
+        outline: 10px solid #000066;
+    }
+    
     hr  { width: 50%; text-align: center;}
-    .foot { margin-left: 20%; margin-right: 20%; text-align: justify; text-indent: -3em; font-size: 90%; }
+    
+    .foot { 
 
-    p.caption { text-align:center; font-style: italic; margin-right: 20%; margin-left: 20%; padding-bottom: 4%; text-decoration: underline;}
+        margin-left: 20%; 
+        margin-right: 20%; 
+        text-align: justify; 
+        text-indent: -3em; 
+        font-size: 90%; 
+    }
 
-    blockquote {font-size: 97%; font-style: italic; margin-left: 10%; margin-right: 10%;font-family: serif;}
-    .mynote    {background-color: #DDE; color: #ffffb3; padding: .5em; margin-left: 10%; margin-right: 10%; font-family: sans-serif;font-style: italic; font-size: 95%;}
-    .toc       { margin-left: 10%; margin-bottom: .75em;}
-    .toc2      { margin-left: 20%;}
-    .indent5   { margin-left: 5%;}
-    .indent10  { margin-left: 10%;}
-    .indent15  { margin-left: 15%;}
-    .indent20  { margin-left: 20%;}
-    .indent30  { margin-left: 30%;}
-    div.fig    { display:inline; margin: auto; text-align:center; outline: 10px solid #000066;}
+    p.caption { 
+        text-align:center; 
+        font-style: italic; 
+        margin-right: 20%; 
+        margin-left: 20%; 
+        padding-bottom: 4%; 
+        text-decoration: underline;
+    }
+
+    blockquote {
+        font-size: 97%; 
+        font-style: italic; 
+        margin-left: 10%; 
+        margin-right: 10%;
+        font-family: serif;
+    }
+
+    .mynote{
+        background-color: #DDE; 
+        color: #ffffb3; 
+        padding: .5em; 
+        margin-left: 10%; 
+        margin-right: 10%; 
+        font-family: sans-serif;
+        font-style: italic; 
+        font-size: 95%;
+    }
+
+    .toc       { 
+        margin-left: 10%; 
+        margin-bottom: .75em;
+    }
+
+    .toc2      { 
+        margin-left: 20%;
+    }
+    .indent5   { 
+        margin-left: 5%;
+    }
+    .indent10  { 
+        margin-left: 10%;
+    }
+    .indent15  { 
+        margin-left: 15%;
+    }
+    .indent20  { 
+        margin-left: 20%;
+    }
+    .indent30  { 
+        margin-left: 30%;
+    }
+    div.fig    { 
+        display:inline;
+        margin: auto; 
+        text-align:center; 
+         
+     }
     
     div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
 
