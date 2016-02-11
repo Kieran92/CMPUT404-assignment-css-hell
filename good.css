@@ -46,7 +46,7 @@ p {
   color: #f1f1f1;
   background-size: 100%;
 	width: 20% ;
-	height: 100%;
+	height: 80%;
 	
 	margin-right: 15.25%;
   padding-left: 1%;
@@ -62,7 +62,21 @@ p {
 }
 #sidebarHeader{
   text-align: left;
-  font-size: 160%;
+
+    -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 180%/normal "Anton", Helvetica, sans-serif;
+  color: #7a8ea3;
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+
 
 }
 
@@ -140,7 +154,7 @@ ul li {
   margin: 0 auto;
   border: none;
   font: normal 82px/normal "Anton", Helvetica, sans-serif;
-  color: rgb(112, 112, 112);
+  color: #7a8ea3;
   text-align: center;
   text-transform: uppercase;
   -o-text-overflow: clip;
