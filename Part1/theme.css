@@ -2,27 +2,44 @@
         margin:5%; 
         background: #d9b48c; 
         text-align:center;
+        background-image: url(http://www.philadelphiapraise.com/wp-content/uploads/2012/02/Paper-Proselyte-Graphics.jpg);
+        background-size: 100%;
     }
     
     P { 
         text-indent: 1em;
         margin-top: .25em;
         margin-bottom: .25em; 
+        margin-left: 15%;
+        margin-right: 15%;
         text-align: center; 
         font-style: italic; 
         font-family: serif; 
     }
-    H1,H2,H3,H4,H5,H6 { text-align: center; 
+
+    H1,H2,H3,H4,H5,H6 { 
+        font-size: 200%;
+        text-align: center; 
         margin-left: 15%; 
         margin-right: 15%; 
-        font-style: italic; 
+        font-style: italic, bold; 
         font-family: serif;
+        color: #722F37;
     }
+
+     H1::first-letter{
+        font-size: 200%;
+        color: #334231;
+
+     }
     img {
-        outline: 10px solid #000066;
+        outline: 3px solid #000066;
     }
     
-    hr  { width: 50%; text-align: center;}
+    hr  { 
+        width: 50%; 
+        text-align: center;
+    }
     
     .foot { 
 
@@ -59,6 +76,8 @@
         font-family: sans-serif;
         font-style: italic; 
         font-size: 95%;
+        background-image: url(http://www.philadelphiapraise.com/wp-content/uploads/2012/02/Paper-Proselyte-Graphics.jpg);
+        background-size: 100%;
     }
 
     .toc       { 
@@ -91,18 +110,64 @@
          
      }
     
-    div.middle { margin-left: 20%; margin-right: 20%; text-align: justify; }
+    div.middle { 
+        margin-left: 20%; 
+        margin-right: 20%; 
+        text-align: center; 
+    }
 
-    .figleft   {float: left; margin-left: 0%; margin-right: 0%; outline: 10px solid #000066;}
-    .figright  {float: right; margin-right: 0%; margin-left: 0%; outline: 10px solid #000066;}
+    .figleft   {
+        float: left; 
+        margin-left: 2%; 
+        margin-right: 2%; 
 
-    .pagenum   {display:inline; font-size: 100%; font-style:normal;
-               margin: 0; padding: 0; position: absolute; right: 1%;
-               text-align: right;}
-    .side      { float: left; font-size: 75%; width: 25%; padding-left: 0.8em;
-               border-left: dashed thin; text-align: left;
-               text-indent: 0; font-weight: bold; font-style: italic;
-               font-weight: bold; color: black; background:  #ffffb3; border: solid 1px;}
-    p.pfirst, p.noindent {text-indent: 0}
-    span.dropcap         { float: left; margin: 0 0.1em 0 0; line-height: 1 }
-    pre        { font-style: italic; font-size: 100%; margin-left: 10%;}
+    }
+
+    .figright  {float: right;
+     margin-right: 2%; 
+     margin-left: 2%; 
+
+ }
+
+    .pagenum   {
+        display:inline; 
+
+        color: #DC143C;
+        font-style:normal;
+        margin: 0; 
+        padding: 0; 
+        position: absolute; right: 1%;
+        text-align: right;
+    }
+    .side      { 
+        float: left; 
+        font-size: 75%; 
+        width: 25%; 
+        padding-left: 0.8em;
+        border-left: dashed thin; 
+        text-align: left;
+        text-indent: 0; 
+        font-weight: bold; 
+        font-style: italic;
+        font-weight: bold; 
+        color: black; 
+        background:  #ffffb3; 
+        border: solid 1px;
+    }
+
+    p.pfirst, p.noindent {
+        text-indent: 0
+
+    }
+
+    span.dropcap { 
+        float: left; 
+        margin: 0 0.1em 0 0; 
+        line-height: 1 
+    }
+
+    pre        { 
+        font-style: italic; 
+        font-size: 100%; 
+        margin-left: 10%;
+    }

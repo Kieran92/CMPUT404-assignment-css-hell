@@ -66,6 +66,10 @@ https://image.freepik.com/free-icon/shake-hands_318-23469.jpg
 
 Author:freepick
 
+http://www.philadelphiapraise.com/wp-content/uploads/2012/02/Paper-Proselyte-Graphics.jpg
+
+Author: Shutterstock
+
 
 CSS Stylings and Code Used
 ==========================
